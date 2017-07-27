@@ -85,19 +85,19 @@ a:hover {
 	width: 60px;
 	height: 56px;
 	display: block;
-	background: transparent url('../images/twitter_black.png') center top no-repeat;
+	background: transparent url('../images/twitter_black2.png') center top no-repeat;
 }
 .twitter:hover {
-	background-image: url('../images/twitter_grey.png');
+	background-image: url('../images/twitter_grey2.png');
 }
 .facebook {
 	width: 60px;
 	height: 56px;
 	display: block;
-	background: transparent url('../images/fb_black.png') center top no-repeat;
+	background: transparent url('../images/fb_black2.png') center top no-repeat;
 }
 .facebook:hover {
-	background-image: url('../images/fb_grey.png');
+	background-image: url('../images/fb_grey2.png');
 }
 .contact-form {
 	margin-bottom: 20px;
