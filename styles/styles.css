@@ -215,7 +215,7 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 	background-color: #727272;
 }
 
-.topleft {background-color: #B4C7F2; padding: 20px; text-align: center; border-radius: 10px; margin: 20px; width: 45%;}
-.topright {background-color: #B4F2D1; padding: 20px; text-align: center; border-radius: 10px; margin: 20px; width: 45%;}
-.bottomleft {background-color: #FE8181; padding: 20px; text-align: center; border-radius: 10px; margin: 20px; width: 45%;}
-.bottomright {background-color: #9CB1E3; padding: 20px; text-align: center; border-radius: 10px; margin: 20px; width: 45%;}
+.topleft {background-color: #B4C7F2; text-align: center; border-radius: 10px; margin: 30px 8px 10px 8px; padding: 0px 20px 45px 20px;}
+.topright {background-color: #B4F2D1; text-align: center; border-radius: 10px; margin: 30px 8px 10px 8px; padding: 0px 20px 80px 20px;}
+.bottomleft {background-color: #FE8181; text-align: center; border-radius: 10px; margin: 30px 8px 10px 8px; padding: 0px 20px 90px 20px;}
+.bottomright {background-color: #9CB1E3; text-align: center; border-radius: 10px; margin: 30px 8px 10px 8px; padding: 0px 20px 15px 20px;}
