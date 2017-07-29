@@ -113,7 +113,7 @@ a:hover {
 }
 
 .twitter:hover {
-	background-image: url('../images/twitter_grey2.png');
+	background-image: url('../images/twitter_black2.png');
 }
 
 .facebook {
@@ -124,7 +124,17 @@ a:hover {
 }
 
 .facebook:hover {
-	background-image: url('../images/fb_grey2.png');
+	background-image: url('../images/fb_black2.png');
+}
+.instagram {
+	width: 30px;
+	height: 56px;
+	display: block;
+	background: transparent url('../images/instagram_white.png') center top no-repeat;
+}
+
+.instagram:hover {
+	background-image: url('../images/instagram_white.png');
 }
 
 .contact-form {
@@ -146,7 +156,7 @@ a:hover {
 }
 
 footer {
-	padding: 30px;
+	padding: 30px 0px 30px 0px;
 	margin-top: 40px;
 	background-color: #484848;
 }
@@ -172,6 +182,7 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 	display: none;
 }
 
+
 .mySlides.fade {
 	opacity: 1;
 }
@@ -195,6 +206,7 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
+
 .prev:hover, .next:hover {
 	background-color: rgba(0,0,0,0.8);
 	color: grey;
