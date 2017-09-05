@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	font-size: 23px;
+	font-size: 23px;	margin: 25px 0px 25px 10px;
 }
 
 h3 {
@@ -231,6 +231,6 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 .topright {background-color: white; text-align: center; border-radius: 0px; margin: 30px 8px 30px 8px; padding: 0px 20px 10px 20px;}
 .bottomleft {background-color: white; text-align: center; border-radius: 0px; margin: 30px 8px 30px 8px; padding: 0px 20px 90px 20px;}
 .bottomright {background-color: white; text-align: center; border-radius: 0px; margin: 30px 8px 30px 8px; padding: 0px 20px 15px 20px;}
-.homeleft {background-color: #B4CDEF; text-align: center; border-radius: 20px; padding: 20px 20px 40px 20px; margin: 20px 30px 20px 30px;}
+.homeleft {background-color: white; text-align: center; border-radius: 20px; padding: 20px 20px 40px 20px; margin: 20px 30px 20px 30px;}
 .homeright {text-align: center; border-radius: 20px; padding: 20px 20px 40px 20px; margin: 20px 30px 20px 30px;}
 .icon {padding: 40px 0px 30px 0px;}
