@@ -172,7 +172,7 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 
 
 .slideshow-container {
-	max-width: 99%;
+	max-width: 90%;
 	position: relative;
 	margin: auto;
 }
@@ -236,6 +236,6 @@ footer p, footer a:link, footer a:visited, footer a:hover, footer a:active {
 .icon {padding: 40px 0px 30px 0px;}
 
 .map-container {
- width: 99%;
+ width: 100%;
  padding: 60px 5px 0px 5px;
 }
