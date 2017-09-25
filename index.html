@@ -78,57 +78,17 @@
   
 <div class="slideshow-container">
     
-<div class="mySlides fade"> <img src="images/slide1.jpg" style="width:100%"> </div>
+<div class="mySlides w3-animate-fading"> <img src="images/slide1.jpg" style="width:100%"> </div>
     
-<div class="mySlides fade"> <img src="images/slide2.jpg" style="width:100%"> </div>
+<div class="mySlides w3-animate-fading"> <img src="images/slide2.jpg" style="width:100%"> </div>
     
-<div class="mySlides fade"> <img src="images/slide3.jpg" style="width:100%"> </div>
+<div class="mySlides w3-animate-fading"> <img src="images/slide3.jpg" style="width:100%"> </div>
   
-<div class="mySlides fade"> <img src="images/slide4.jpg" style="width:100%"> </div>
+<div class="mySlides w3-animate-fading"> <img src="images/slide4.jpg" style="width:100%"> </div>
     
 </div>
 
 </div> </div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-<div class="row">
-   <!-- #BeginEditable "container" --> 
-   <div class="container">
-<div class="col-xs-11 col-md-5 homeleft"><img src="images/phone.png" class="icon" alt="phone icon"><br><p>+44 (0) 7884 589 913</p><img src="images/mail.png" class="icon" alt="mail icon"><br><p>acquaintconsultancy@outlook.com</p></div>
-<div class="col-xs-11 col-md-5 homeright">
-<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAcquaintConsultancy%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
-</div>
-  
-  <!-- #EndEditable --> 
-</div>
-
-  
 <script>
 var myIndex = 0;
 carousel();
@@ -142,10 +102,21 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 2 seconds
+    setTimeout(carousel, 9000);    
 }
-</script> 
-  <!-- #EndEditable -->
+</script>
+<div class="row">
+   <!-- #BeginEditable "container" --> 
+   <div class="container">
+<div class="col-xs-11 col-md-5 homeleft"><img src="images/phone.png" class="icon" alt="phone icon"><br><p>+44 (0) 7884 589 913</p><img src="images/mail.png" class="icon" alt="mail icon"><br><p>acquaintconsultancy@outlook.com</p></div>
+<div class="col-xs-11 col-md-5 homeright">
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAcquaintConsultancy%2F&tabs=timeline&width=400&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
+</div>
+  
+  <!-- #EndEditable --> 
+</div>
+
+<!-- #EndEditable -->
 <footer>
   <div class="row">
     <div class="container">
